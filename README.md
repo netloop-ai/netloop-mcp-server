@@ -1,3 +1,5 @@
+<img src="logo.png" alt="netloop.ai" width="200">
+
 # netloop.ai — MCP server
 
 [netloop.ai](https://netloop.ai) is a **CLI-based assistant for network operations**,
