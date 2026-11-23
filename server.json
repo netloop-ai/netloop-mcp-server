@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.netloop/mcp",
+  "title": "netloop.ai",
+  "description": "Network devices (switches, routers, firewalls) via plain-language queries; read-only by default.",
+  "version": "1.0.0",
+  "websiteUrl": "https://netloop.ai",
+  "repository": {
+    "url": "https://github.com/netloop-ai/netloop-mcp-server",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.netloop.ai/mcp",
+      "headers": [
+        {
+          "name": "X-Auth-Token",
+          "description": "netloop.ai auth token (identifies the tenant)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    },
+    {
+      "type": "sse",
+      "url": "https://mcp.netloop.ai/sse"
+    }
+  ]
+}
