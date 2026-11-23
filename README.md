@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png" alt="netloop.ai" width="140"></p>
+<p align="center"><img src="banner.jpg" alt="netloop.ai" width="720"></p>
 
 # netloop.ai — MCP server
 
@@ -8,8 +8,6 @@ exposed as a remote **Model Context Protocol (MCP)** server and as an
 
 Ask questions about switches, routers, access points and firewalls in plain
 language — the platform-appropriate CLI command is chosen for you.
-
-<p align="center"><img src="banner.jpg" alt="netloop.ai" width="720"></p>
 
 - **Read-only by default.** Write operations require `read_only: false` in the
   connector configuration and an explicit **Human-in-the-Loop** approval.
