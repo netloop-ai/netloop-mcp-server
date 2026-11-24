@@ -3,7 +3,7 @@
   "name": "ai.netloop/mcp",
   "title": "netloop.ai",
   "description": "Network devices (switches, routers, firewalls) via plain-language queries; read-only by default.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://netloop.ai",
   "repository": {
     "url": "https://github.com/netloop-ai/netloop-mcp-server",
